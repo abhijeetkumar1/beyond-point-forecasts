@@ -1,0 +1,10 @@
+numpy
+pandas
+scipy
+plotly
+nbformat
+statsmodels
+jupyter
+ipykernel
+# notebooks 13-14 only
+torch
