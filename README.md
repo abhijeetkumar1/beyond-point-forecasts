@@ -1,5 +1,7 @@
 # Probabilistic Forecasting: a notebook course (monthly data)
 
+**Repository:** https://github.com/abhijeetkumar1/beyond-point-forecasts
+
 Fifteen self-contained Jupyter notebooks. Each one explains the **theory** of one type of probabilistic forecast
 (with formulas), then implements it from scratch on **monthly** data and evaluates it with proper scoring rules.
 The notebooks are saved *with outputs*, so you can read them without running anything.
@@ -44,6 +46,8 @@ enough, and each runs in 1–2 minutes). The saved outputs are Plotly figures, s
 JupyterLab, Jupyter Notebook or VS Code to see them (GitHub's notebook preview does not render Plotly).
 
 ```bash
+git clone https://github.com/abhijeetkumar1/beyond-point-forecasts.git
+cd beyond-point-forecasts
 uv venv --python 3.12 .venv
 uv pip install --python .venv/bin/python -r requirements.txt
 .venv/bin/jupyter lab
